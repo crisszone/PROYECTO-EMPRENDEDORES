@@ -151,16 +151,14 @@ header {
 }
 header .bg{
   position: absolute;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
   background-position: center;
   opacity: 0.7;
   width: 100%;
   height: 100%;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/bg/header.jpg');
 }
+
 header .header-content {
   position: relative;
   text-align: center;
@@ -416,4 +414,39 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+.thumbnail img{
+  width: 100%;
+}
+.item-portfolio{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  position: relative;
+  display: block;
+}
+
+
+.item-portfolio-bg{
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+.item-portfolio-bg.bg-1{
+  background-image: url('../img/portfolio/thumbnails/1.jpg');
+}
+.item-portfolio-bg.bg-2{
+  background-image: url('../img/portfolio/thumbnails/2.jpg');
+}
+.item-portfolio-bg.bg-5{
+  background-image: url('../img/portfolio/thumbnails/5.jpg');
+}
+.item-portfolio-bg.bg-6{
+  background-image: url('../img/portfolio/thumbnails/6.jpg');
+}
+.item-portfolio-cont{
+  position: relative;
 }
